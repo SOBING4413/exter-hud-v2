@@ -1,0 +1,15 @@
+{
+  "settings_title": "HUD Settings",
+  "layout": "Layout",
+  "theme": "Theme",
+  "colors": "Colors",
+  "visible_elements": "Visible elements",
+  "positioning": "Positioning",
+  "drag_mode_on": "Exit drag mode",
+  "drag_mode_off": "Enable drag mode",
+  "drag_mode_hint": "While drag mode is on, click and drag any HUD panel to reposition it.",
+  "save": "Save settings",
+  "progress_cancel_hint": "hold X to cancel",
+  "dialog_confirm": "Confirm",
+  "dialog_cancel": "Cancel"
+}

@@ -1,0 +1,6 @@
+CreateThread(function()
+    Wait(0)
+    Fuel.Register('cdn-fuel', function(vehicle)
+        return exports['cdn-fuel']:GetFuel(vehicle)
+    end)
+end)

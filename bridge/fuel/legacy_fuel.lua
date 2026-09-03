@@ -1,0 +1,6 @@
+CreateThread(function()
+    Wait(0)
+    Fuel.Register('LegacyFuel', function(vehicle)
+        return exports['LegacyFuel']:GetFuel(vehicle)
+    end)
+end)

@@ -1,0 +1,6 @@
+CreateThread(function()
+    Wait(0)
+    Fuel.Register('ox_fuel', function(vehicle)
+        return Entity(vehicle).state.fuel or GetVehicleFuelLevel(vehicle)
+    end)
+end)
